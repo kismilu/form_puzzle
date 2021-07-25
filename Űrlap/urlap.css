@@ -1,0 +1,73 @@
+body{ background-color: #ffe; }
+
+legend {
+    font-weight: bold;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    font-family: "Comic Sans MS"
+}
+/*classok*/
+.bali{
+    font-size: 15px;
+}
+
+.feladatok{
+    text-align: left;
+    font-size: 20px;
+}
+
+.valami{
+    text-align: left;
+    font-size: 17px;
+}
+.chb{}
+
+.adatok{
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*id-k*/
+#elkuld{
+    font-family: "Comic Sans MS";
+    color: red;
+    background: darkgray;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    float: right;
+    margin-top: 10px;
+}
+
+#torol{
+    font-family: "Comic Sans MS";
+    color: red;
+    background: darkgray;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 10px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+#szoveg{
+    width: 600px;
+}
+#valasz1, #valasz2, #valasz3, #valasz4 {
+    margin-top: 7px;
+}
+
+
+
+
+
+

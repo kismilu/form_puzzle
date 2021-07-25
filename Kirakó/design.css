@@ -1,0 +1,29 @@
+h1{
+    color: Black;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Comic Sans MS";
+    font-size: 50px;
+    font-style: italic;
+}
+body{
+    background-image: url("indexhatter.jpg");
+    background-size: 100%;
+    color: black;
+    text-align: center;
+}
+
+img{
+    margin: 20px 20px 10px 20px;
+    width:384px;height:233px;
+    border-color: black;
+    text-align: center;
+    border: 1px solid;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+

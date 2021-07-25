@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Urlap</title>
+    <link rel="stylesheet" href="urlap.css" />
+    <script src = "urlap.js"></script>
+</head>
+<body>
+
+    <form method = "get" action= "feldolgoz.html" id ="urlap">
+        <fieldset> <legend style="font-size: 25px"> Személyes adatok </legend>
+            <table>
+                <tr>
+                    <th>
+                        <fieldset class = "adatok"> <legend> Felhasználói adatok </legend>
+                            <span class = "bal">
+                                <label for = "uid"> Név: </label> <br />
+                                <input type = "text" size = "20" maxlength = "30" name = "uid" id = "uid" class = "bali" />
+                            </span>
+                        </fieldset>
+                    </th>
+                    <th>
+                        <fieldset class = "adatok" id = "szuletes">
+                            <legend> Születési adatok </legend>
+                        </fieldset>
+                    </th>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="margin-top: 10px"> <legend style="font-size: 25px"> Feladatok </legend>
+            <fieldset>
+                <legend class="feladatok">I. feladat</legend>
+                <p>
+                     <span class="valami"> Az alábbiak közül, melyik prímszám? </span> <br/>
+                    <label for = "hat"> 6  </label>
+                    <input type = "radio" name = "het" id = "hat" value = "6" />
+                    <label style="margin-left: 10px" for = "het"> 7  </label>
+                    <input type = "radio" name = "het" id = "het" value = "7" />
+                    <label style="margin-left: 10px" for = "nyolc"> 8  </label>
+                    <input type = "radio" name = "het" id = "nyolc" value = "8" />
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend class="feladatok">II. feladat</legend>
+                <p>
+                    <label for = "szoveg" class="valami"> Matematikában hogyan nevezzük más szóval a felcserélhetőséget? </label> <br/>
+                    <textarea name="szoveg" id="szoveg"  rows = "2" cols = "30" ></textarea>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend class="feladatok">III. feladat</legend>
+                <p>
+                    <label for = "ot" class="valami"> Mennyi 1+2+2? <br/>  </label>
+                    <input type = "text" name = "ot" id = "ot" onblur="check3elhagy()" />
+                    </p>
+            </fieldset>
+
+            <fieldset>
+                <legend class="feladatok">IV. feladat</legend>
+                <p> <span class="valami"> Mely halmaz(ok)ba sorolható a -576? </span> <br/>
+                    <label for = "RacionalisSzamok" class = "chb">Racionális számok</label>
+                    <input type = "checkbox" name = "RacionalisSzamok"  id = "RacionalisSzamok" class = "che" /> <br/>
+                    <label for = "EgeszSzamok" class = "chb">Egész számok</label>
+                    <input type = "checkbox" name = "EgeszSzamok" id = "EgeszSzamok" class = "che" />  <br/>
+                    <label for = "TermeszetesSzamok" class = "chb">Természetes számok</label>
+                    <input type = "checkbox" name = "TermeszetesSzamok" id = "TermeszetesSzamok" class = "che" />  <br/>
+                </p>
+            </fieldset>
+
+        </fieldset>
+
+
+        <input type = "button" id = "torol" value = "Töröl" />
+        <input type = "submit" id = "elkuld" value = "Elküld" />
+    </form>
+
+</body>
+</html>

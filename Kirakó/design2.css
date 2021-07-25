@@ -1,0 +1,52 @@
+body{
+    background-image: url("indexhatter.jpg");
+    background-size: 100%;
+    color: grey;
+}
+table {
+    border-collapse: collapse;
+    width: 640px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+#darab1{
+    position: absolute;
+    top: 500px;
+    left: 40px;
+}
+#darab2{
+    position: absolute;
+    top: 500px;
+    left: 380px;
+}
+#darab3{
+    position: absolute;
+    top: 500px;
+    left: 720px;
+}
+#darab4{
+    position: absolute;
+    top: 500px;
+    left: 1060px;
+}
+
+
+#myDIV {
+    border-radius: 25px;
+    color: red;
+    background: lightgray;
+    width: 500px;
+    text-align: center;
+    border: 2px solid;
+    font-size: 50px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    margin-top: 10px;
+}

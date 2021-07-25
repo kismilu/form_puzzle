@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <title> Tartalom </title>
+  <style>
+<!--
+body { background-color: #ffc; }
+.kotelezo { color: #00f; }
+.valaszt { color: #0a0; }
+.fontos { color: #f00; font-weight: bold  }
+.utolag1 {color: #0c0}
+.utolag2 {color: #088}
+.utolag3 {color: #0d0}
+.ismert { color: #00a; }
+#feladatok { list-style-type: upper-alpha }
+.belso { list-style-type: lower-alpha }
+.megold { font-style: oblique }
+.legbelso {list-style-type: lower-roman }
+-->
+  </style>
+</head>
+<body>
+<h1> Projekt követelmények </h1>
+<ul>
+<li> Az alapvető követelmények a tárgy
+  <a href = "http://www.inf.u-szeged.hu/~chollo/oktat/17_2/UFWP_gy_leiras.html">
+  teljesítési feltételeiben </a> le vannak írva, azokat is be kell tartani.
+</li>
+<li> A projektnek azokat a követelményeket hiánytalanul és
+hibátlanul tartalmaznia kell, melyek mellett nincs feltűntetve
+pontszám. Ezek összességében 50 pontot érnek, tehát a projekt
+teljesítésének szükséges és elégséges feltételét képezik.
+<span class = "fontos"> Ha ezekből bármi is hiányzik vagy nincs
+megfelelően megvalósítva, akkor a projekt el lesz utasítva! </span>
+A többi feladat megoldása
+nem kötelező, ezekből választani lehet további legfeljebb 50 pontnyi
+feladat megoldását (ha valaki ezekből ennél többet old meg, akkor
+is 50 pont lesz, mert a gyakorlatra összesen legfeljebb 100 pont
+szerezhető).</li>
+<li>  A html, css és szkript kódokat külön fájlokban kell elhelyezni.
+A forráskódoknak (html, js) átláthatóknak kell lenni.
+A projekt cálja, hogy a tanult elemek ismeretét felmérje, ezért a felesleges
+elemeket,	automatikus genarálásból eredő túlbonyolított megoldásokat
+tartalmazó megoldások el lesznek utasítva! </li>
+<li> A projektben használt minden megvalósításnak különböznie kell
+    annyira a kurzus példáitól, hogy megállapítható legyen annak
+    megértése. Tehát nem elegendő pl. a bemásolt kódban a szövegek
+    módosítása, vagy a bemásolt szkript mellé más HTML
+    kód beszúrása, a példa kódját lényeges elemeiben módosítani kell. </li>
+<li> <span class = "fontos"> A projekteknek különbözniük kell annyira
+    egymástól, hogy ne merüljön fel a másolás gyanúja. Túl hasonló
+    projektek esetén javítás jelleggel azok módosítását fogom kérni.
+    Amennyiben javítás után is túl hasonlók lesznek, mindkét projekt el
+    lesz utasítva. </span> </li>
+<li> A követelmények megvalósításához néhány kis méretű kép is
+    elegendő, ne használjunk sok, nagy méretű képet.</li>
+<li> A projektet egyetlen zip állományba tömörítve kell feltölteni
+    a kurzushoz tartozó CooSpace színtérben erre kialakított
+    Feladat eszköz használatával. A feltöltött fájl neve
+    a hallgató neve kell legyen Családnév_Keresztnév formában,
+    és ne tartalmazzon speciális karaktereket.</li>
+<li> Készíteni kell egy tartalom.html fájlt, mely
+<span class = "fontos">jelen fájlnak a másolata </span>
+annyi változtatással, hogy minden
+megvalósított követelmény hivattkozássá van alakítva, mely a
+megvalósítást tartalmazó oldalon belül a megvalósítást tartalmazó részre
+mutat (<span class = "fontos">nem a forráskódra, hanem
+a .html fájlra !!!</span>), illetve ki lehet
+egészítve további megvalósításokra mutatotó hivatkozásokkal.
+Az A pontot a főoldalon is ki lehet egészíteni (ebben az esetben nem
+kellenek linkek), a B. és C. pontok esetében elegendő csak azok
+címeit (<strong>Űrlap</strong> és <strong>Kirakó</strong>)
+és azon választható alpontjait linkekké alakítani, amelyeket
+a hallgató megvalósított.
+Nem megvalósított pontok linkekre alakítása pontlevonással jár.
+<ul><li> <span class = "fontos">
+Csak a linkre alakított  követelmények meglétét ellenőrzöm, ezért
+fontos, hogy a követelmény  megvalósítása akkor is legyen
+linkre alakítva, ha nem tud az adott oldalon belül pontosan a kívánt
+helyre mutatni vagy ott önállóan nem múködne (akkor a hozzá
+legközelebbi beazonosítható helyre mutasson), különben nem fog
+pontot kapni.</span></li></ul>
+</li>
+<li> A feladat kizárólag JavaScript használatával oldható meg,
+ettől eltérő megoldás, pl. PHP nem fogadható el.
+</li>
+<li> A JavaScript megoldásoknak a böngészők legújabb verzióinak
+tekintetében böngészőfüggetlenek kell legyenek, azaz minden
+elterjedt böngészőben jól kell működniük.
+A böngészők akkor sem adhatnak hibajelzést, ha ezek megjelenítése
+be van kapcsolva (egyébként ezek bekapcsolása segít a hibák
+megtalálásában).
+ </li>
+<li>
+Elvárt továbbá a progresszív fejlesztés betartása is, így ami szkript
+nélkül megvalósítható, annak szkript nélkül is működnie kell.
+</li>
+<li>
+    A projekt minden oldala meg kell feleljen az XHTML 1.0
+    szigorú (strict) vagy a HTML5 követelményrendszerének.
+    Ennek ellenőrzése a
+    <a href = "http://validator.w3.org/"> http://validator.w3.org/ </a>
+    oldalon lehetséges.
+    Segítségként természetesen használhatók  érvényesség ellenőrző
+    böngésző kiegészítők is (pl. Firefoxban  a
+    <a href = "http://users.skynet.be/mgueury/mozilla/index.html">
+    HTML Validator </a> soros algoritmussal), de vitás esetben a
+    <a href = "http://validator.w3.org/"> http://validator.w3.org/ </a>
+    oldal eredménye lesz a döntő.
+	</li>
+</ul>
+<ol id = "feladatok">
+ <li> Személyes adatok
+  <ol>
+   <li> Száva Mihály Demeter</li>
+   <li> Matematika - Informatika Osztatlan Tanári, 3.</li>
+   <li> nappali </li>
+   <li> szava.m@gmail.hu </li>
+  </ol>
+ </li>
+ <li> <strong>Űrlap.</strong>
+      Készítsünk egy matematikai feladatsort tartalmazó űrlapot
+     (urlap.html) és egy hozzá tartozó űrlapot feldolgozó oldalt
+      (feldolgoz.html) az alábbiak szerint.
+      Az űrlap tartalma más témájú is lehet, de technikailag
+      akkor is tartalmaznia kell az alábbiakat.
+   <ol>
+    <li>  Az űrlapon legyen:
+     <ol class = "belso">
+         <li> <a href="Űrlap/urlap.html#uid">beviteli mező a feladatokat megoldó nevének</a></li>
+        <li> <a href="Űrlap/urlap.html#szuletes">1960 és 2005 között minden évszámot tartalmazó,
+            szkriptből dinamikusan generált lista a születési év
+            kiválasztására</a></li>
+        <li> Négy feladat az alábbi típusú válaszlehetőségekkel:
+           <ol class = "legbelso">
+             <li> <a href="Űrlap/urlap.html#hat">adott 3 választási lehetőség, amelyek közül kezdetben
+                egy sincs bejelölve, és csak egyet lehet kiválasztani
+                 (választógomb)</a></li>
+             <li> <a href="Űrlap/urlap.html#RacionalisSzamok">sok választási lehetőség közül többet is ki lehet,
+              helyes válaszhoz legalább kettőt ki is kelljen választani,
+                 jelölőnégyzetekkel megvalósítva</a></li>
+               <li> <a href="Űrlap/urlap.html#ot">beviteli mezőbe kell beírni a szám típusú választ</a></li>
+             <li> <a href="Űrlap/urlap.html#szoveg">többsoros beviteli mezőbe
+                 kell beírni a szöveg típusú választ</a> </li>
+           </ol>
+        </li>
+         <li> <a href="Űrlap/urlap.html"> minden mezőhöz elemfelirat </a></li>
+        <li> <a href="Űrlap/urlap.html">mezőcsoportosítás  </a></li>
+         <li> <a href="Űrlap/urlap.html#elkuld">egy Küldés gomb, amelyet megnyomva az űrlap adatait elküldjük a feldolgozó fájlnak</a></li>
+         <li> <a href="Űrlap/urlap.html#torol">egy Töröl gomb, amelyet megnyomva az addig megadott adatokat törli</a></li>
+     </ol>
+    </li>
+    <li> <a href="Űrlap/urlap.html#ot">Szám típusú válasz esetén, amikor ellépünk a beviteli mezőről,
+       történjen ellenőrzés, hogy valóban szám van-e a mezőben és
+       ha nem, akkor jelenjen meg egy figyelmeztetés és ne engedjen
+        továbbmenni másik  mezőbe.</a>
+       </li>
+    <li><a href="Űrlap/urlap.html#elkuld"> A Küldés gombra kattintva történjen ellenőrzés: ha valamely
+         beviteli mező üresen maradt, vagy valamelyik kérdésnél egyik
+         választógomb sem lett bejelölve, figyelmeztetés jelenjen meg,
+        az űrlap adatai ekkor ne kerüljenek elküldésre.</a></li>
+    <li> A feldolgoz.html:
+     <ul>
+      <li> <a href="Űrlap/feldolgoz.html">jelenítse meg a feladatokat megoldó nevét,
+         az életkorát (számítsa ki a születési év alapján),
+         a kérdéseket, a kérdésekre adott illetve
+         bejelölt válaszokat és azt, hogy mik lettek
+          volna a helyes válaszok </a></li>
+      <li> <a href="Űrlap/feldolgoz.html"> helyes válasz esetén zöld színnel, helytelen válasz esetén
+          piros színnel jelenjen meg az adott válasz </a> </li>
+      <li> <span class = "valaszt">
+         (2 pont) szöveges válasz esetén akkor lesz helyes a válasz,
+         ha előre megadott szavak szerepelnek benne,
+         a kis- és nagybetűk ne legyenek megkülönböztetve </span></li>
+      <li> <span class = "valaszt">
+          (4 pont) reklámcsíkban futó szövegként jelenjen meg a helyes
+         válaszok száma és az összes feladathoz viszonyított aránya
+         százalékosan. </span></li>
+      <li>  <span class = "valaszt">
+         (4 pont) a legutóbbi feladatsormegoldás dátuma és a
+         feladatot megoldó neve websütiből jelenjenek meg (ha létezik
+         a süti), az űrlap elküldésekor ezeket az adatokat websütiként
+         helyezzük el. </span></li>
+     </ul>
+    </li>
+    <li> <span class = "valaszt">
+    (0-6 pont) JavaScriptben a kérdéseket egyedi objektumokként
+    hozzuk létre a megfelelő saját (!!!) tulajdonságokkal és metódusokkal
+    (pl. kerdes, valasz1, valasz2 tulajdonságok, kiir metódus stb.). Tehát ez nem
+    a DOM2, hanem az objektumorientáltság fogalmainak használatát kell
+    mutassa JavaScript-ben (saját objektumok, metódusok létrehozása,
+    öröklődés stb.). </span></li>
+  </ol>
+  </li>
+  <li> <strong>Kirakó.</strong>
+         Készítsünk kirakó (puzzle) játékot az alábbiak szerint:
+   <ol>
+     <li> <a href="Kirakó/index.html"> A játékhoz szükségünk lesz egy vagy több
+   képre, melyek közül majd a felhasználó választhat, hogy melyikkel
+   akar játszani. Minden kiválasztható képet képszerkesztő programmal
+   daraboljunk fel n*m (n,m>=2) részre. Ha ezt nem tudjuk, hogy hogyan
+   kell, akkor a darabok egymástól független képek is lehetnek, hiszen
+   kötelezőként csak azt kell tudni, hogy ezeket hogyan lehet elhelyezni
+         és mozgatni. </a> </li>
+  <li> <a href="Kirakó/index.html#id0"> Az első oldalon legyen részletesen leírva a játék menete
+      (feladat, billentyűk funkciója stb.), továbbá jelenítsük meg a
+      kirakható képeket és (alattuk, fölöttük, vagy melletük) azok neveit. </a>
+  </li>
+    <li> <span class = "valaszt"> (4 pont)
+<a href="Kirakó/index.html#id1"> A felhasználó több kép közül választhassa ki azt, hogy melyiket
+szeretné kirakni.</a> </span> </li>
+    <li> <span class = "valaszt"> (4 pont)
+A kiválasztott kép darabjai véletlenszerű sorrendben jelenjenek
+meg (például a képernyő bal felső sarkában). </span> </li>
+<li> <a href="Kirakó/puzzle0.html#tabla"> Kijelölünk továbbá a képernyő közepén egy n*m mezőt
+tartalmazó területet (azaz egy n*m-es táblázatot), a darabokat
+abba kell majd a felhasználónak áthuzogatni.</a> </li>
+    <li> <a href="Kirakó/puzzle0.html#tabla"> A kirakó darabjait tetszőleges helyre lehessen
+           húzni oly módon, hogy a darab fölött az egér
+           bal gonbját lenyomjuk, majd az egeret lenyomott
+           gommbal húzva a kép is az egérrel együtt mozog.
+           Az egér gombjának felengedésekor a képet
+           igazítsuk be az elhelyezéséhez legközelebbi üres
+           helyre, akkor is, ha nem az a képdarab megfelelő helye
+           (hiszen a felhasználótól túlzás lenne elvárni, hogy pixel
+           pontosan helyezze el a képet).</a>
+           </li>
+    <li> <span class = "valaszt"> (4 pont)
+    Írassuk ki, hogy hány kép van a megfelelő helyén, és minden
+    képelhelyezés után ezt az értéket frissítsük.</span></li>
+    <li>  <a href="Kirakó/puzzle0.html#tabla"> A kirakó legalább egy darabját billentyűkkel is
+         lehessen mozgatni,</a>  <span class = "valaszt">
+         több darab esetén mindegyiket mozgatás előtt kijelölni
+         (kiválasztani) és utána lerakni (4 pont). </span></li>
+    <li> <span class = "valaszt"> (4 pont)
+           A játék megkezdésekor induljon el egy stopperóra,
+           ennek működése a játék során folyamatosan látszódjon és
+           a játék végén automatikusan álljon meg. </span></li>
+    <li>  <span class = "valaszt"> (4 pont)
+          <a href="Kirakó/puzzle0.html#tabla"> A játék végét egy formázott szöveget tartalmazó kisméretű
+        ablak jelezze, amely 5 másodperc múlva automatikusan
+        bezárul.  </a> </span> </li>
+  </ol></li>
+<li> <span class = "valaszt"> (0-10 pont)
+További JavaScript ismeretek bemutatása (linkre alakítás esetén
+pontosítandó, szükség esetén akár felsorolással).</span></li>
+  <li> <span class = "valaszt">  (0-20 pont)
+  A megvalósítások minősége, rendszeressége,
+  gondossága, design elemek betartása. </span> </li>
+ </ol>
+ <p> Közzétéve: 2018. 03.19. </p>
+</body></html>
